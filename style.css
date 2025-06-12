@@ -391,6 +391,12 @@ footer{
 
 /* other screens  */
 
+@media screen  and (max-width:1105px){
+    #contacts{
+        width: 90%;
+    }
+}
+
 @media screen  and (max-width:900px){
         footer{
         height: 100px;
@@ -406,6 +412,10 @@ footer{
 
     .logoFooterDiv h1{
         font-size: 18px;
+    }
+
+        #contacts{
+        width: 100%;
     }
 }
 
@@ -545,4 +555,15 @@ input{
 
     padding: 8px;
 }
+}
+
+@media screen and (max-width:450px){
+    form{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    #home h1{
+        font-size: 21px;
+    }
 }
