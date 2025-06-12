@@ -566,4 +566,16 @@ input{
     #home h1{
         font-size: 21px;
     }
+
+        footer p{
+        font-size: 11px;
+    }
+
+    .logoFooterDiv h1{
+        font-size: 14px;
+    }
+
+    footer a{
+        font-size: 10px;
+    }
 }
